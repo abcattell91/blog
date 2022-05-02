@@ -30,6 +30,8 @@ gem 'simple_form', github: 'heartcombo/simple_form'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.4', require: false
 
+gem 'cloudinary', '~> 1.16.0'
+
 gem 'dotenv-rails', groups: [:development, :test]
 
 group :development, :test do
